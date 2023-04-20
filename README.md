@@ -1,7 +1,22 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Stroke Prediction using Machine Learning Models
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This project analyzes the Stroke Prediction Dataset from Kaggle (https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) using machine learning models such as Support Vector Machine (SVM), Logistic Regression, K-Nearest Neighbor, and Neural Network. The project aims to predict the probability of a person having a stroke based on their health records.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Dataset Description
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+The Stroke Prediction Dataset consists of 5110 records containing various health-related features such as age, hypertension, heart disease, etc., and whether or not the person had a stroke. 
+
+## Preprocessing and Data Analysis
+
+The dataset was preprocessed and analyzed before being fed to the machine learning models. Firstly, the correlation between the features was visualized using a heatmap. Then, the dataset was split into features and targets, and the relevant columns were selected using the iloc method. After that, the data was rescaled using the MinMaxScaler to convert the data into a range of 0 - 1.
+
+## Machine Learning Models and Evaluation
+
+The data was then split into training and testing sets with a split ratio of 70:30. Four machine learning models were used - SVM, Logistic Regression, K-Nearest Neighbor, and Neural Network, to predict the probability of a person having a stroke. The accuracy score was used as the evaluation criteria for the models.
+Results
+
+After training and testing the models, the accuracy score of each model was calculated. The results showed that SVM and Neural Network had the highest accuracy score of, followed by Logistic Regression and K-Nearest Neighbor.
+
+## Conclusion
+
+In conclusion, machine learning models such as SVM, Logistic Regression, K-Nearest Neighbor, and Neural Network can be used to predict the probability of a person having a stroke based on their health records with high accuracy. These models can assist healthcare professionals in identifying individuals who may be at risk of having a stroke and providing preventative care.
