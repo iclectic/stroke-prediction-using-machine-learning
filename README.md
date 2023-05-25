@@ -15,7 +15,7 @@ The dataset was preprocessed and analyzed before being fed to the machine learni
 The data was then split into training and testing sets with a split ratio of 70:30. Four machine learning models were used - SVM, Logistic Regression, K-Nearest Neighbor, and Neural Network, to predict the probability of a person having a stroke. The accuracy score was used as the evaluation criteria for the models.
 Results
 
-After training and testing the models, the accuracy score of each model was calculated. The results showed that SVM and Neural Network had the highest accuracy score of, followed by Logistic Regression and K-Nearest Neighbor.
+After training and testing the models, the accuracy score of each model was calculated. The results showed that SVM and Neural Network had the highest accuracy score, followed by Logistic Regression and K-Nearest Neighbor.
 
 ## Conclusion
 
